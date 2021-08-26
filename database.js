@@ -4,8 +4,7 @@ const client = new Client ({
     host: "localhost",
     port: 5432,
     user: "postgres"
-    password: "admin"
-
+    databse: "empdata"
 })
 
 client.on("connect", () => {
